@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>携程旅游</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/ctrip_index.css" />
+		<script type="text/javascript" src="js/jquery1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/fun.js"></script>
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="snav">
+				<div class="snav_f">
+				<div class="snav_top">
+					<div class="snav_top1">让旅行更幸福<span><img src="img/bj_02.jpg" />Language<img src="img/bj_03.jpg" /></span></div>
+					<ul class="snav_top2">
+						<li class="snav_top21"><a href="#">您好，请登录</a></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><a href="#">免费注册</a></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><img src="img/bj_04.jpg" /> <a href="#">消息</a></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><a href="#">我的携程</a> <img src="img/bj_03.jpg" /></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><a href="#">我的订单</a>  <img src="img/bj_03.jpg" /></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><a href="#">客服中心</a></li>
+						<li class="snav_top23">|</li>
+						<li class="snav_top24"><img src="img/bj_05.jpg"/></li>
+						<li class="snav_top25"><img src="img/bj_06.jpg"/></li>
+					</ul>
+					<ul class="snav_top3">
+						<li class="snav_top31"></li>
+						<li class="snav_top32">手机扫码快速下载</li>
+						<li class="snav_top33"><a href="#">携程旅行手机版&gt;</a></li>
+					</ul>
+					<ul class="snav_top4">
+						<li class="snav_top31"></li>
+						<li class="snav_top34">携程订阅号：<br/>
+						扫一扫，<span>领旅行福利</span>
+						</li>
+						<li class="snav_top35"></li>
+					</ul>
+				</div>
+				<div class="snav_center">
+					<div class="snav_center1"><a href="index.html"><img src="img/bj_8.jpg"/></a></div>
+					<div class="snav_center2"><input type="text" placeholder="搜索旅行地/酒店/旅游/景点门票/交通" /></div>
+					<div class="snav_center3"><a href="#"><img src="img/bj_09.jpg" /></a></div>
+					<div class="snav_center5"></div>
+					<ul class="snav_center4">
+						<li class="snav_center41">境内：95010</li><br />
+						<li class="snav_center42">（或）400-830-6666</li>
+					</ul>
+					
+				</div>
+				<ul class="snav_bottoma">
+					<li class="snav_bottoma1"><a href="#">首页</a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">酒店<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">旅游<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma1"><a href="#">跟团游</a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma1"><a href="#">自由行</a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">机票<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">火车<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">汽车票<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">用车<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">门票<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma1"><a href="#">攻略</a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">全球购<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">礼品卡<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">商旅<img src="img/bj_10.jpg" /></a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma1"><a href="#">邮轮</a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma1"><a href="#">目的地</a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma1"><a href="#">金融</a></li>
+					<li class="snav_bottoma2">|</li>
+					<li class="snav_bottoma3" id="top_dh"><a href="#">更多<img src="img/bj_10.jpg" /></a></li>
+				</ul>
+				<div class="snav_bottomb">
+					<ul id="snav_bottombacc">
+						<li class="snav_bottomb1">境外直通车</li>
+						<li class="snav_bottomb2"><img src="img/bj_12.jpg" /><a href="#">海外酒店</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_13.jpg" /><a href="#">国际•港澳台机票</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_14.jpg" /><a href="#">境外租车</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_15.jpg" /><a href="#">国际•港台火车票</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_16.jpg" /><a href="#">出境游</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_17.jpg" /><a href="#">高端游</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_18.jpg" /><a href="#">出境•港澳台门票</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_19.jpg" /><a href="#">签证</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_20.jpg" /><a href="#">保险</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_21.jpg" /><a href="#">WiFi•电话卡</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_22.jpg" /><a href="#">境外接送机</a></li>
+						<li class="snav_bottomb2"><img src="img/bj_23.jpg" /><a href="#">外币兑换</a></li>
+					</ul>
+					<ul id="snav_bottomb_1">
+						<li class="snav_bottomb2"><a href="#">国内酒店</a>|</li>
+						<li class="snav_bottomb2"><a href="#">海外酒店</a>|</li>
+						<li class="snav_bottomb2"><a href="#">民宿客栈</a>|</li>
+						<li class="snav_bottomb2"><a href="#">海外民宿</a>|</li>
+						<li class="snav_bottomb2"><a href="#">团购</a>|</li>
+						<li class="snav_bottomb2"><a href="#">特价酒店</a>|</li>
+						<li class="snav_bottomb2"><a href="#">酒店+景点</a>|</li>
+						<li class="snav_bottomb2"><a href="#">团队房•长住房</a>|</li>
+						<li class="snav_bottomb2"><a href="#">会议</a></li>
+					</ul>
+					<ul id="snav_bottomb_2">
+						<li class="snav_bottomb2"><a href="#">旅游首页</a>|</li>
+						<li class="snav_bottomb2"><a href="#">海外酒店</a>|</li>
+						<li class="snav_bottomb2"><a href="#">周末游</a>|</li>
+						<li class="snav_bottomb2"><a href="#">跟团游</a>|</li>
+						<li class="snav_bottomb2"><a href="#">自由行</a>|</li>
+						<li class="snav_bottomb2"><a href="#">邮轮</a>|</li>
+						<li class="snav_bottomb2"><a href="#">酒店+景点</a>|</li>
+						<li class="snav_bottomb2"><a href="#">当地玩乐</a>|</li>
+						<li class="snav_bottomb2"><a href="#">主题游</a>|</li>
+						<li class="snav_bottomb2"><a href="#">定制旅行</a>|</li>
+						<li class="snav_bottomb2"><a href="#">游学</a>|</li>
+						<li class="snav_bottomb2"><a href="#">签证</a>|</li>
+						<li class="snav_bottomb2"><a href="#">企业会奖</a>|</li>
+						<li class="snav_bottomb2"><a href="#">高端游</a>|</li>
+						<li class="snav_bottomb2"><a href="#">爱玩户外</a>|</li>
+						<li class="snav_bottomb2"><a href="#">保险</a>|</li>
+						<li class="snav_bottomb2"><a href="#">特卖汇</a></li>
+					</ul>
+					<ul id="snav_bottomb_3">
+						<li class="snav_bottomb2"><a href="#">国内机票</a>|</li>
+						<li class="snav_bottomb2"><a href="#">国际•港澳台机票</a>|</li>
+						<li class="snav_bottomb2"><a href="#">特价机票</a>|</li>
+						<li class="snav_bottomb2"><a href="#">机+酒</a>|</li>
+						<li class="snav_bottomb2"><a href="#">航班动态</a>|</li>
+						<li class="snav_bottomb2"><a href="#">值机选座</a>|</li>
+						<li class="snav_bottomb2"><a href="#">退票改签</a>|</li>
+						<li class="snav_bottomb2"><a href="#">机场攻略</a></li>
+					</ul>
+					<ul id="snav_bottomb_4">
+						<li class="snav_bottomb2"><a href="#">国内火车票</a>|</li>
+						<li class="snav_bottomb2"><a href="#">国际•港澳台火车票</a></li>
+					</ul>
+					<ul id="snav_bottomb_5">
+						<li class="snav_bottomb2"><a href="#">汽车票</a>|</li>
+						<li class="snav_bottomb2"><a href="#">船票</a>|</li>
+						<li class="snav_bottomb2"><a href="#">游艇帆船</a>|</li>
+						<li class="snav_bottomb2"><a href="#">到站游</a></li>
+					</ul>
+					<ul id="snav_bottomb_6">
+						<li class="snav_bottomb2"><a href="#">用车首页</a>|</li>
+						<li class="snav_bottomb2"><a href="#">境外租车</a>|</li>
+						<li class="snav_bottomb2"><a href="#">境外接送机</a>|</li>
+						<li class="snav_bottomb2"><a href="#">境外包车</a>|</li>
+						<li class="snav_bottomb2"><a href="#">国内租车</a>|</li>
+						<li class="snav_bottomb2"><a href="#">国内接送机/火车</a>|</li>
+						<li class="snav_bottomb2"><a href="#">国内包车</a></li>
+					</ul>
+					<ul id="snav_bottomb_7">
+						<li class="snav_bottomb2"><a href="#">境内门票</a>|</li>
+						<li class="snav_bottomb2"><a href="#">出境•港澳台门票</a>|</li>
+						<li class="snav_bottomb2"><a href="#">出境WiFi•电话卡</a>|</li>
+						<li class="snav_bottomb2"><a href="#">周末游</a>|</li>
+						<li class="snav_bottomb2"><a href="#">上海海昌</a></li>
+					</ul>
+					<ul id="snav_bottomb_8">
+						<li class="snav_bottomb2"><a href="#">名店购</a>|</li>
+						<li class="snav_bottomb2"><a href="#">退税</a>|</li>
+						<li class="snav_bottomb2"><a href="#">银联特惠</a>|</li>
+						<li class="snav_bottomb2"><a href="#">万千赏</a>|</li>
+						<li class="snav_bottomb2"><a href="#">外币兑换</a></li>
+					</ul>
+					<ul id="snav_bottomb_9">
+						<li class="snav_bottomb2"><a href="#">礼品卡首页</a>|</li>
+						<li class="snav_bottomb2"><a href="#">节日/主题购卡</a>|</li>
+						<li class="snav_bottomb2"><a href="#">礼品卡福袋</a>|</li>
+						<li class="snav_bottomb2"><a href="#">企业采购</a>|</li>
+						<li class="snav_bottomb2"><a href="#">兌换劵</a>|</li>
+						<li class="snav_bottomb2"><a href="#">外币兑换</a>|</li>
+						<li class="snav_bottomb2"><a href="#">礼品卡订单></a></li>
+					</ul>
+					<ul id="snav_bottomb_10">
+						<li class="snav_bottomb2"><a href="#">商旅首页</a>|</li>
+						<li class="snav_bottomb2"><a href="#">企业差旅平台</a>|</li>
+						<li class="snav_bottomb2"><a href="#">会议旅游</a></li>
+					</ul>
+					<ul id="snav_bottomb_11">
+						<li class="snav_bottomb2"><a href="#">优品商城</a>|</li>
+						<li class="snav_bottomb2"><a href="#">超级会员</a>|</li>
+						<li class="snav_bottomb2"><a href="#">团购</a>|</li>
+						<li class="snav_bottomb2"><a href="#">合作卡</a>|</li>
+						<li class="snav_bottomb2"><a href="#">携程运动</a></li>
+					</ul>
+				</div>
+				</div>
+			</div>
+			
+		<div class="main">
+			<div class="main_ku">
+				<div class="main1">
+					<div class="main_content">
+					<div class="main_content_top">
+						<div class="main_content_top1">酒店</div>
+						<ul class="main_content_top0">
+							<li>国内酒店</li>
+							<li>海外酒店</li>
+							<li>酒店团购</li>
+							<li>酒店+景点</li>
+							<li>会议•团房•长住</li>
+						</ul>
+					</div>
+					<div class="main_content_bottom">
+						<ul class="main_content_bottom1">
+							<li>机票</li>
+							<li class="main_content_bottom2">旅游</li>
+							<li class="main_content_bottom2">跟团游</li>
+							<li class="main_content_bottom2">自由行</li>
+							<li class="main_content_bottom2">火车</li>
+							<li class="main_content_bottom2">用车</li>
+						</ul>
+						<div class="main_content_bottom3">
+							<table class="main_content_bottom3t" width="451" height="156">
+								<tr>
+									<td>目的地</td>
+									<td colspan="3"><input type="text" id="bourn"/></td>
+								</tr>
+								<tr>
+									<td>入住日期</td>
+									<td><input type="date" id="inp"/></td>
+									<td>退房日期</td>
+									<td><input type="date" id="inp"/></td>
+								</tr>
+								<tr>
+									<td>房间数</td>
+									<td>
+										<select id="inp">
+											<option>1间</option>
+										</select>
+									</td>
+									<td>住客数</td>
+									<td>
+										<select id="inp">
+											<option>1成人</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>酒店级别</td>
+									<td>
+										<select id="inp">
+											<option>不限</option>
+										</select>
+									</td>
+									<td>关键字</td>
+									<td><input type="text" id="inp"/></td>
+								</tr>
+								<tr>
+									<td colspan="3"></td>
+									<td><input type="submit" value="搜索" id="sou" /></td>
+								</tr>
+							</table>
+							
+						</div>
+					</div>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+		</header>
+		<div class="xnav_bj">
+		<div class="xnav">
+			<section>
+			<div class="xnav_top_bj">
+				<ul class="xnav_ti">
+					<li class="xnav_ti1">热门</li>
+					<li class="xnav_ti2">特价旅游 </li>
+					<li class="xnav_ti2">出境游</li>
+					<li class="xnav_ti2">境内游</li>
+					<li class="xnav_ti2">周边游</li>
+					<li class="xnav_ti2">邮轮</li>
+					<li class="xnav_ti2">门票</li>
+					<li class="xnav_ti2">当地玩乐</li>
+					<li class="xnav_ti2">主题游</li>
+					<li class="xnav_ti2">高端游</li>
+					<li class="xnav_ti3"><img src="img/002.gif"/></li>
+					<li class="xnav_ti4"><img src="img/003.gif"/></li>
+					<li class="xnav_ti5">上海出发 <img src="img/bj_03.jpg"/></li>
+				</ul>
+			</div>
+			<div class="xnav_top">
+				<div class="xnav_top_jin">
+					<span>精选</span>
+					<a href="#">境内</a>
+					<a href="#">港澳台</a>
+					<a href="#">日本</a>
+					<a href="#">东南亚</a>
+					<a href="#">欧洲</a>
+					<a href="#">美洲</a>
+					<a href="#">澳中东非</a>
+				</div>
+				<ul class="xnav_topft">
+					<li class="xnav_topft1"><img src="img/bj_26.jpg"/></li>
+					<li class="xnav_topft1"><img src="img/bj_27.jpg"/></li>
+					<li class="xnav_topft1"><img src="img/bj_29.jpg"/></li>
+					<li class="xnav_topft1"><img src="img/bj_30.jpg"/></li>
+					<li class="xnav_topft1"><img src="img/bj_31.jpg"/></li>
+					<li class="xnav_topft1"><img src="img/bj_32.jpg"/></li>
+					<li class="xnav_topft1"><img src="img/bj_33.jpg"/></li>
+					<li class="xnav_topft1"><img src="img/bj_34.jpg"/></li>
+				</ul>
+				<div class="xnav_topri"><img src="img/bj_35.jpg"/></div>
+			</div>
+			<div class="xnav2">
+				<ul class="xnav2_top">
+					<a href="#">海外酒店</a>
+					<a href="#">海外民宿+短租</a>
+					<a href="#">国内酒店</a>
+					<a href="#">酒店+景点</a>
+					<a href="#">客栈民宿</a>
+					<a href="#">团购</a>
+				</ul>
+				<div class="xnav2_zhu">
+					<div class="xnav2_left">
+						<p>促销</p>
+						<p class="xnav2_left1"><a href="#">睡遍全世界——新加坡国家馆</a></p>
+						<p class="xnav2_left1"><a href="#">睡遍全世界——日本国家馆</a></p>
+						<p class="xnav2_left1"><a href="#">睡遍全世界——澳大利亚站</a></p>
+						<p class="xnav2_left1"><a href="#">睡遍全世界——暑假亲子游世界</a></p>
+						<p class="xnav2_left1"><a href="#">睡遍全世界——泰国国家馆</a></p>
+						<p>发现酒店</p>
+						<p class="xnav2_left1"><a href="#">马尔代夫首都马累酒店推荐</a></p>
+						<p class="xnav2_left1"><a href="#">美国茂宜岛酒店推荐</a></p>
+						<p class="xnav2_left1"><a href="#">土耳其伊兹密尔酒店推荐</a></p>
+						<p class="xnav2_left1"><a href="#">意大利那不勒斯酒店推荐</a></p>
+					</div>
+					<div class="xnav2_right">
+						<div class="xnav2_right_jin">
+							<span>热门城市</span>
+							<a href="#">都市购物</a>
+							<a href="#">海岛休闲</a>
+							<a href="#">旅游胜地</a>
+						</div>
+						<p><a href="#" class="xnav2_right_jing">更多海外酒店></a></p>
+						<ul class="xnav2_right_img">
+							<li class="xnav_topft1"><img src="img/bj_37.jpg"/></li>
+							<li class="xnav_topft1"><img src="img/bj_38.jpg"/></li>
+							<li class="xnav_topft1"><img src="img/bj_39.jpg"/></li>
+							<li class="xnav_topft1"><img src="img/bj_40.jpg"/></li>
+							<li class="xnav_topft1"><img src="img/bj_41.jpg"/></li>
+							<li class="xnav_topft1"><img src="img/bj_42.jpg"/></li>
+						</ul>
+						<div class="xnav_topri"><img src="img/bj_43.jpg"/></div>
+					</div>
+				</div>
+			</div>
+			<div class="xnav3">
+				<div class="xnav3_top">
+					<li class="xnav3_top1"><a href="#">国际•港澳台特价机票</a></li>
+					<li class="xnav3_top2"><a href="#">国内特价机票</a></li>
+					<li class="xnav3_top3"><a href="#" >上海出发 <img src="img/bj_03.jpg"/></a></li>
+				</div>
+				<div class="xnav3_body">
+					<div class="xnav_top_jin">
+							<span>热门往返</span>
+							<a href="#">亚洲</a>
+							<a href="#">欧洲</a>
+							<a href="#">美洲</a>
+							<a href="#">非洲</a>
+					</div>
+					<div class="xnav3_body_r">
+						<a href="#">更多国际•港澳台特价机票></a>
+					</div>
+					<div class="xnav3_body_t">
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+						<ul class="xnav3_body_img">
+							<li class="xnav3_body_img1">上海<img src="img/bj_45.jpg" />曼谷</li>
+							<li class="xnav3_body_img2">7月8日-7月15日</li>
+							<li class="xnav3_body_img3"><span class="sp1">￥</span><span class="sp2">270</span><span class="sp3">起</span><input type="button" value="立抢"/> </li>
+						</ul>
+					</div>	
+					<div class="xnav3_body_right">
+						<img src="img/bj_43.jpg" />
+					</div>
+				</div>
+			</div>
+			<div class="xnav4">
+				<ul class="xnav2_top">
+					<a href="#">境外租车</a>
+					<a href="#">境外接送机</a>
+					<a href="#">国内租车</a>
+					<a href="#">国内接送机</a>
+					<a href="#">日租包车</a>
+				</ul>
+				<div class="xnav4_zhu">
+					<div class="xnav4_left">
+						<p>热门城市</p>
+						<p><a href="#">洛杉矶</a><span>|</span> <a href="#">旧金山</a><span>|</span><a href="#">墨尔本</a></p>
+						<p><a href="#">纽约</a><span>|</span> <a href="#">曼谷</a><span>|</span><a href="#">基督城</a></p>
+						<p><a href="#">普吉岛</a><span>|</span> <a href="#">温哥华</a><span>|</span><a href="#">悉尼</a></p>
+						<p><a href="#">奥克兰</a><span>|</span> <a href="#">拉斯维加斯</a><span>|</span><a href="#">西雅图</a></p>
+						<p><a href="#">伦敦</a><span>|</span> <a href="#">法兰克福</a><span>|</span><a href="#">多伦多</a></p>
+						<p><a href="#">巴黎</a><span>|</span> <a href="#">迪拜</a></p>
+					</div>
+					<div class="xnav4_right">
+						<div class="xnav2_right_jin">
+							<span>热门城市</span>
+							<a href="#">都市购物</a>
+							<a href="#">海岛休闲</a>
+							<a href="#">旅游胜地</a>
+						</div>
+						<p><a href="#" class="xnav2_right_jing">更多海外酒店></a></p>
+						<div class="xnav4_body">
+							<ul class="xnav4_body1">
+								<li class="xnav4_body1_s1"><img src="img/bj_46.jpg" /></li>
+								<li class="xnav4_body1_s2">美国 洛杉矶</li>
+								<li class="xnav4_body1_s3"><span class="s4">自驾梦幻1号公路</span>		<span class="s1">￥</span><span class="s2">128</span><span class="s3">起</span></li>
+							</ul>
+							<ul class="xnav4_body2">
+								<li class="xnav4_body1_s1"><img src="img/bj_46.jpg" /></li>
+								<li class="xnav4_body1_s2">美国 洛杉矶</li>
+								<li class="xnav4_body1_s3"><span class="s4">自驾梦幻1号公路</span>		<span class="s1">￥</span><span class="s2">128</span><span class="s3">起</span></li>
+							</ul>
+							<ul class="xnav4_body2">
+								<li class="xnav4_body1_s1"><img src="img/bj_46.jpg" /></li>
+								<li class="xnav4_body1_s2">美国 洛杉矶</li>
+								<li class="xnav4_body1_s3"><span class="s4">自驾梦幻1号公路</span>		<span class="s1">￥</span><span class="s2">128</span><span class="s3">起</span></li>
+							</ul>
+							<ul class="xnav4_body3">
+								<li class="xnav4_body1_s1"><img src="img/bj_46.jpg" /></li>
+								<li class="xnav4_body1_s2">美国 洛杉矶</li>
+								<li class="xnav4_body1_s3"><span class="s4">自驾梦幻1号公路</span>		<span class="s1">￥</span><span class="s2">128</span><span class="s3">起</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="xnav5">
+				<ul class="xnav5_top">
+					<li class="xnav5_top1"><a href="#">当地玩乐·出境</a></li>
+					<li class="xnav5_top2"><a href="#">当地玩乐·境内</a></li>
+				</ul>
+				<div class="xnav5_body">
+					<div class="xnav5_body_left">
+						<p>热门目的地</p>
+						<p><a href="#">普吉岛</a><span>|</span> <a href="#">曼谷</a><span>|</span><a href="#">东京</a></p>
+						<p><a href="#">清迈</a><span>|</span> <a href="#">香港</a><span>|</span><a href="#">芽庄</a></p>
+						<p><a href="#">巴厘岛</a><span>|</span> <a href="#">沙巴</a><span>|</span><a href="#">大阪</a></p>
+						<p><a href="#">岘港</a><span>|</span> <a href="#">迪拜</a><span>|</span><a href="#">澳门</a></p>
+						<p><a href="#">墨尔本</a><span>|</span> <a href="#">冲绳</a><span>|</span><a href="#">悉尼</a></p>
+						<p><a href="#">新加坡</a><span>|</span> <a href="#">暹粒</a><span>|</span> <a href="#">台北</a></p>
+					</div>
+					<div class="xnav5_body_right"> 
+						<div class="xnav2_right_jin">
+							<span>一日游</span>
+							<a href="#">演出/赛事</a>
+							<a href="#">交通接驳</a>
+							<a href="#">当地美食</a>
+							<a href="#">游船观光</a>
+							<a href="#">SPA水疗</a>
+							<a href="#">特色体验</a>
+						</div>
+						<p><a href="#" class="xnav2_right_jing">更多当地玩乐></a></p>
+						<div class="xnav2_right_jin2">
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="xnav5">
+				<ul class="xnav5_top">
+					<li class="xnav5_top1"><a href="#">当地玩乐·出境</a></li>
+					<li class="xnav5_top2"><a href="#">当地玩乐·境内</a></li>
+				</ul>
+				<div class="xnav5_body">
+					<div class="xnav5_body_left">
+						<p>热门目的地</p>
+						<p><a href="#">普吉岛</a><span>|</span> <a href="#">曼谷</a><span>|</span><a href="#">东京</a></p>
+						<p><a href="#">清迈</a><span>|</span> <a href="#">香港</a><span>|</span><a href="#">芽庄</a></p>
+						<p><a href="#">巴厘岛</a><span>|</span> <a href="#">沙巴</a><span>|</span><a href="#">大阪</a></p>
+						<p><a href="#">岘港</a><span>|</span> <a href="#">迪拜</a><span>|</span><a href="#">澳门</a></p>
+						<p><a href="#">墨尔本</a><span>|</span> <a href="#">冲绳</a><span>|</span><a href="#">悉尼</a></p>
+						<p><a href="#">新加坡</a><span>|</span> <a href="#">暹粒</a><span>|</span> <a href="#">台北</a></p>
+					</div>
+					<div class="xnav5_body_right"> 
+						<div class="xnav2_right_jin">
+							<span>一日游</span>
+							<a href="#">演出/赛事</a>
+							<a href="#">交通接驳</a>
+							<a href="#">当地美食</a>
+							<a href="#">游船观光</a>
+							<a href="#">SPA水疗</a>
+							<a href="#">特色体验</a>
+						</div>
+						<p><a href="#" class="xnav2_right_jing">更多当地玩乐></a></p>
+						<div class="xnav2_right_jin2">
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="xnav5">
+				<ul class="xnav5_top">
+					<li class="xnav5_top1"><a href="#">当地玩乐·出境</a></li>
+					<li class="xnav5_top2"><a href="#">当地玩乐·境内</a></li>
+				</ul>
+				<div class="xnav5_body">
+					<div class="xnav5_body_left">
+						<p>热门目的地</p>
+						<p><a href="#">普吉岛</a><span>|</span> <a href="#">曼谷</a><span>|</span><a href="#">东京</a></p>
+						<p><a href="#">清迈</a><span>|</span> <a href="#">香港</a><span>|</span><a href="#">芽庄</a></p>
+						<p><a href="#">巴厘岛</a><span>|</span> <a href="#">沙巴</a><span>|</span><a href="#">大阪</a></p>
+						<p><a href="#">岘港</a><span>|</span> <a href="#">迪拜</a><span>|</span><a href="#">澳门</a></p>
+						<p><a href="#">墨尔本</a><span>|</span> <a href="#">冲绳</a><span>|</span><a href="#">悉尼</a></p>
+						<p><a href="#">新加坡</a><span>|</span> <a href="#">暹粒</a><span>|</span> <a href="#">台北</a></p>
+					</div>
+					<div class="xnav5_body_right"> 
+						<div class="xnav2_right_jin">
+							<span>一日游</span>
+							<a href="#">演出/赛事</a>
+							<a href="#">交通接驳</a>
+							<a href="#">当地美食</a>
+							<a href="#">游船观光</a>
+							<a href="#">SPA水疗</a>
+							<a href="#">特色体验</a>
+						</div>
+						<p><a href="#" class="xnav2_right_jing">更多当地玩乐></a></p>
+						<div class="xnav2_right_jin2">
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img im1">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						<ul class="xnav5_body_right_img">
+							<li class="xnav5_body_right_img1"><img src="img/bj_47.jpg" /></li>
+							<li class="xnav5_body_right_img2">日本冲绳县万座毛+古宇利岛+冲绳美...丽海水族馆+B可选美国村一日游【微信+群赠水族馆票中文导游】</li>
+							<li class="xnav5_body_right_img3">日本·那霸<span class="s1">¥<span class="s2">238</span><span class="s3">起</span></span></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="xnav6">
+				<div class="xnav6_top">
+					<div class="xnav6_top1">
+						<p><span>合作优惠</span><a href="#">更多</a></p>
+						<p class="xnav6_top1_p1">光大信用卡约惠旅游季</p>					
+						<p class="xnav6_top1_p1">上海建行指定龙卡专享</p>
+					</div>
+					<div class="xnav6_top2">
+						<p><span>合作伙伴</span></p>
+						<div class="xnav6_top2_img">
+							<li class="xnav6_top2_img1"><img src="img/bj_48.jpg" alt="" /></li>
+							<li class="xnav6_top2_img2"><img src="img/bj_54.jpg" alt="" /></li>
+							<li><img src="img/bj_49.jpg" alt="" /></li>
+							<li class="xnav6_top2_img2"><img src="img/bj_54.jpg" alt="" /></li>
+							<li><img src="img/bj_50.jpg" alt="" /></li>
+							<li class="xnav6_top2_img2"><img src="img/bj_54.jpg" alt="" /></li>
+							<li><img src="img/bj_51.jpg" alt="" /></li>
+							<li class="xnav6_top2_img2"><img src="img/bj_54.jpg" alt="" /></li>
+							<li><img src="img/bj_52.jpg" alt="" /></li>
+							<li class="xnav6_top2_img2"><img src="img/bj_54.jpg" alt="" /></li>
+							<li><img src="img/bj_53.jpg" alt="" /></li>
+						</div>
+					</div>
+				</div>
+				<div class="xnav6_bottom">
+					<div class="xnav6_bottom1">
+					<div class="p1">携程导航</div>
+					<div class="p2"> 
+						<ul class="p2_a">
+							<li><a href="#">预定酒店</a></li>
+							<li class="p2_a1"><a href="#">租车</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">海外酒店</a></li>
+							<li class="p2_a1"><a href="#">目的地榜单</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">特价机票</a></li>
+							<li class="p2_a1"><a href="#">欧铁通票</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">国际机票</a></li>
+							<li class="p2_a1"><a href="#">自由行</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">旅游路线</a></li>
+							<li class="p2_a1"><a href="#">会议旅游</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">景点门票</a></li>
+							<li class="p2_a1"><a href="#">客栈民宿</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">旅游攻略</a></li>
+							<li class="p2_a1"><a href="#">礼品卡</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">火车票</a></li>
+							<li class="p2_a1"><a href="#">团队游</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">酒店团购</a></li>
+							<li class="p2_a1"><a href="#">企业商旅</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">邮轮</a></li>
+							<li class="p2_a1"><a href="#">查看全部</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">周末游</a></li>
+						</ul>
+						<ul class="p2_a">
+							<li><a href="#">签证</a></li>
+						</ul>
+						</div>
+					</div>
+					<div class="xnav6_bottom2">
+						<div class="xnav6_bottom2_a2">酒店预订</div>
+					<div class="xnav6_bottom2_a"> 
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">城市酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">国家酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">北京酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">上海酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">广州酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">成都酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">杭州酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">西安酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">新加坡酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">迪拜酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">韩国酒店</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">泰国酒店</a></li>
+						</ul>
+						</div>
+					</div>
+					
+					<div class="xnav6_bottom2">
+						<div class="xnav6_bottom2_a2">特价机票</div>
+					<div class="xnav6_bottom2_a"> 
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">上海机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">北京机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">广州机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">深圳机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">重庆机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">成都机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">昆明机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">厦门机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">三亚机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">杭州机票</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">春秋航空</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">东方航空</a></li>
+						</ul>
+						</div>
+					</div>
+					<div class="xnav6_bottom2">
+						<div class="xnav6_bottom2_a2">旅游度假</div>
+					<div class="xnav6_bottom2_a"> 
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">国内旅游攻略</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">出境旅游攻略</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">马尔代夫旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">普吉岛旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">巴厘岛旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">济州岛旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">日本旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">新加坡旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">澳大利亚旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">迪拜旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">英国旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">柬埔寨旅游</a></li>
+						</ul>
+						</div>
+					</div>
+					<div class="xnav6_bottom2">
+						<div class="xnav6_bottom2_a2">攻略指南</div>
+					<div class="xnav6_bottom2_a"> 
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">攻略社区</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">旅游攻略</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">旅行游记</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">旅游问答</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">结伴旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">周末旅游</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">攻略下载</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">天气预报</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">旅游资讯</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">旅游榜单</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">旅游专题</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">地图大全</a></li>
+						</ul>
+						</div>
+					</div>
+					<div class="xnav6_bottom3">
+						<div class="xnav6_bottom2_a2">快速入口</div>
+					<div class="xnav6_bottom2_a"> 
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">团购导航</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">门票导航</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">客栈管理系统</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">天海邮轮</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">中小企业差旅</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">存款证明</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">携程主题曲</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">航班时刻表</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">火车时刻表</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">汽车时刻表</a></li>
+						</ul>
+						<ul class="xnav6_bottom2_a1">
+							<li><a href="#">签证</a></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			<footer>
+			<div class="snav1">
+				<div class="snav1_top">
+					<div class="snav1_top1">
+						<div class="snav1_top11">为什么选择携程</div>
+						<div class="snav1_top12"><img src="img/bj_56.jpg" alt="" /></div>
+						<div class="snav1_top12"><img src="img/bj_57.jpg" alt="" /></div>
+					</div>
+					<div class="snav1_top2"><img src="img/bj_55.jpg" /></div>
+					<div class="snav1_top3">
+						<div class="snav1_top11">旅游资讯</div>
+						<ul class="snav1_top3_u">
+							<li class="snav1_top3_u1"><a href="#">宾馆索引</a></li>
+							<li class="snav1_top3_u2"><a href="#">攻略索引</a></li>
+							<li class="snav1_top3_u2"><a href="#">机票索引</a></li>
+							<li class="snav1_top3_u2"><a href="#">网站导航</a></li>
+							<li class="snav1_top3_u2"><a href="#">旅游索引</a></li>
+						</ul>
+						<ul class="snav1_top3_u">
+							<li class="snav1_top3_u1"><a href="#">火车票索引</a></li>
+							<li class="snav1_top3_u2"><a href="#">邮轮索引</a></li>
+							<li class="snav1_top3_u2"><a href="#">企业差旅索引</a></li>
+							<li class="snav1_top3_u2"><a href="#">用车索引</a></li>
+						</ul>
+					</div>
+					<div class="snav1_top2"><img src="img/bj_55.jpg" /></div>
+					<div class="snav1_top3">
+						<div class="snav1_top11">加盟合作</div>
+						<ul class="snav1_top3_u">
+							<li class="snav1_top3_u1"><a href="#">分销联盟</a></li>
+							<li class="snav1_top3_u2"><a href="#">广告业务</a></li>
+							<li class="snav1_top3_u2"><a href="#">保险代理</a></li>
+							<li class="snav1_top3_u2"><a href="#">酒店加盟</a></li>
+							<li class="snav1_top3_u2"><a href="#">智慧旅游</a></li>
+						</ul>
+						<ul class="snav1_top3_u">
+							<li class="snav1_top3_u1"><a href="#">友情链接</a></li>
+							<li class="snav1_top3_u2"><a href="#">企业礼品卡采购</a></li>
+							<li class="snav1_top3_u2"><a href="#">代理合作</a></li>
+							<li class="snav1_top3_u2"><a href="#">目的地及景区合作</a></li>
+							<li class="snav1_top3_u2"><a href="#">更多加盟合作</a></li>
+						</ul>
+					</div>
+					<div class="snav1_top2"><img src="img/bj_55.jpg" /></div>
+					<div class="snav1_top5">
+						<div class="snav1_top11">关于携程</div>
+          
+						<ul class="snav1_top3_u">
+							<li class="snav1_top3_u1"><a href="#">关于携程</a></li>
+							<li class="snav1_top3_u2"><a href="#">联系我们</a></li>
+							<li class="snav1_top3_u2"><a href="#">旅游度假资质</a></li>
+							<li class="snav1_top3_u2"><a href="#">用户协议</a></li>
+							<li class="snav1_top3_u2"><a href="#">营业执照</a></li>
+							<li class="snav1_top3_u2"><a href="#">携程信用卡</a></li>
+						</ul>
+						<ul class="snav1_top3_u">
+							<li class="snav1_top3_u1"><a href="#">携程热点 <img src="img/bj_58.jpg" alt="" /></a></li>
+							<li class="snav1_top3_u2"><a href="#">诚聘英才</a></li>
+							<li class="snav1_top3_u2"><a href="#">企业公民</a></li>
+							<li class="snav1_top3_u2"><a href="#">隐私政策</a></li>
+							<li class="snav1_top3_u2"><a href="#">安全中心</a></li>
+							<li class="snav1_top3_u2"><a href="#">知识产权</a></li>
+						</ul>
+					</div>
+					<div class="snav1_tot7"><img src="img/bj_55.jpg" /></div>
+					<div class="snav1_top6">
+						<div class="snav1_top61">微信公众号</div>
+						<div class="snav1_top62">
+							<div class="ps1"><img src="img/bj_59.jpg" alt="" /></div>
+							<div class="ps2">扫一扫,领旅行福利</div>
+						</div>
+					</div>
+				</div>
+				<div class="snav1_bottom">
+					<div class="snav1_bottom1">Copyright©1999-2019, ctrip.com. All rights reserved. | ICP证：沪B2-20050130</div>
+					<div class="snav1_bottom1"><img src="img/bj_62.jpg"/>沪公网备31010502002731号</div>
+					<div class="snav1_bottom1">违法和不良信息举报电话021-22500846丨上海市反电信网络诈骗中心联系电话962110丨上海市旅游网站落实诚信建设主体责任承诺书</div>
+					<ul class="snav1_bottom_di">
+						<li class="snav1_bottom_di1"><img src="img/bj_60.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_61.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_63.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_64.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_65.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_66.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_67.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_68.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_69.jpg" alt="" /></li>
+						<li class="snav1_bottom_di1"><img src="img/bj_70.jpg" alt="" /></li>
+						<li class=""><img src="img/bj_71.jpg" alt="" /></li>
+					</ul>
+				</div>
+			</div>
+			</footer>
+		</div>
+		</div>
+		<!--<div class="guding">
+			sad
+		</div>-->
+	</body>
+</html>

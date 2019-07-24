@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/cart.css" />
+		<script type="text/javascript" src="js/jquery1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/fun1.js"></script>
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+	</head>
+	<body>
+		<div class="title">
+			<div class="snav_top">
+					<div class="snav_top1">让旅行更幸福<span><img src="img/bj_02.jpg" />Language<img src="img/bj_03.jpg" /></span></div>
+					<ul class="snav_top2">
+						<li class="snav_top21"><a href="#">您好，请登录</a></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><a href="#">免费注册</a></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><img src="img/bj_04.jpg" /> <a href="#">消息</a></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><a href="#">我的携程</a> <img src="img/bj_03.jpg" /></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><a href="#">我的订单</a>  <img src="img/bj_03.jpg" /></li>
+						<li class="snav_top20">|</li>
+						<li class="snav_top22"><a href="#">客服中心</a></li>
+						<li class="snav_top23">|</li>
+						<li class="snav_top24"><img src="img/bj_05.jpg"/></li>
+						<li class="snav_top25"><img src="img/bj_06.jpg"/></li>
+					</ul>
+					<ul class="snav_top3">
+						<li class="snav_top31"></li>
+						<li class="snav_top32">手机扫码快速下载</li>
+						<li class="snav_top33"><a href="#">携程旅行手机版&gt;</a></li>
+					</ul>
+					<ul class="snav_top4">
+						<li class="snav_top31"></li>
+						<li class="snav_top34">携程订阅号：<br/>
+						扫一扫，<span>领旅行福利</span>
+						</li>
+						<li class="snav_top35"></li>
+					</ul>
+				</div>
+				
+		</div>
+		<div class="xnav">
+			<div class="snav_center">
+					<div class="snav_center1"><a href="index.html"><img src="img/bj_8.jpg"/></a></div>
+					<div class="snav_center2"><input type="text" placeholder="搜索旅行地/酒店/旅游/景点门票/交通" /></div>
+					<div class="snav_center3"><a href="#"><img src="img/bj_09.jpg" /></a></div>
+					<div class="snav_center5"></div>
+					<ul class="snav_center4">
+						<li class="snav_center41">境内：95010</li><br />
+						<li class="snav_center42">（或）400-830-6666</li>
+					</ul>
+				</div>
+			<div class="xnav1">
+				<img src="img/lv_26.jpg" alt="" /> 您还没有登录！登录后购物车的商品将保存到您的账户中
+				<input type="button" value="立即登录"/>
+			</div>
+			<div class="xnav2">全部商品 1 <img src="img/lv_27.jpg" alt="" /></div>
+			<div class="xnav3">
+				<ul>
+					<li><input type="checkbox" checked name="" id="" value="" />  全选</li>
+					<li>商品</li>
+					<li>单价</li>
+					<li>数量</li>
+					<li>小计</li>
+					<li>操作</li>
+				</ul>
+			</div>
+			<div class="xnav4">
+				<ul>
+					<li><input type="checkbox" checked name="" id="" value="" /> 秦延专营店<img src="img/lv_28.jpg" alt="" /></li>
+					<li><a href="#"><img src="img/lv_29.jpg"/></a></li>
+				</ul>
+			</div>
+			<div class="xnav5">
+				<ul>
+					<li><input type="checkbox" checked name="" id="" value="" /></li>
+					<li><img src="img/lv_09.jpg" alt=""  width="80" height="80"/></li>
+					<li>免费赠送水肺深浅理论教学课程+布纳肯出海浮潜</li>
+					<li>时尚双杆自动扣<br/>拍下备注带身长度</li>
+					<li id="danjia">￥<span>39.90</span></li>
+					<li><a href="#" onclick="num1()" id="jian"><img src="img/lv_31.jpg" /></a><input type="text" name="price" id="price" value="1" /><img src="img/lv_32.jpg" id="jia" onclick="num2()"/></li>
+					<li id="zong">￥<span>39.90</span></li>
+					<li><a href="#" class="del" >删除</a></li>
+				</ul>
+			</div>
+			<div class="xnav5">
+				<ul>
+					<li><input type="checkbox" checked name="" id="" value="" /></li>
+					<li><img src="img/lv_09.jpg" alt=""  width="80" height="80"/></li>
+					<li>免费赠送水肺深浅理论教学课程+布纳肯出海浮潜</li>
+					<li>时尚双杆自动扣<br/>拍下备注带身长度</li>
+					<li id="danjia1">￥<span>39.90</span></li>
+					<li><a href="#" onclick="num1()" id="jian1"><img src="img/lv_31.jpg" /></a><input type="text" name="price1" id="price1" value="1" /><img src="img/lv_32.jpg" id="jia1" onclick="num2()"/></li>
+					<li id="zong1">￥<span>39.90</span></li>
+					<li><a href="#" class="del" >删除</a></li>
+				</ul>
+			</div>
+			
+			<div class="xnav6">
+				 <div class="xnav6_xuan"><input type="checkbox" checked name="" id="" value="" />全选<a href="#">删除选中商品</a><a href="#">移到关注</a><a href="#">清理购物车</a></div>
+				 <ul>
+				 	<li class="ge" >总价：<span>￥39.90</span><img src="img/lv_34.jpg"/></li>
+				 	<li>已选择一件商品<img src="img/lv_33.jpg" alt="" /></li>
+				 	<li>促销：-0.00</li>
+				 </ul>
+				 <div class="xnav6_balance">结算</div>
+			</div>
+			<div class="xnav7">
+				<div class="main_2">
+					<ul class="main_a">
+						<li class="main_a1"><a href="#">网站导航</a> | <a href="#">宾馆索引</a> | <a href="#">用户协议</a> | <a href="#">关于携程</a> | <a href="#">企业公民</a> | <a href="#">诚聘英才</a> | <a href="#">分销联盟</a> | <a href="#">企业礼品卡采购</a> | <a href="#">代理合作</a> | <a href="#">广告业务</a> | <a href="#">联系我们</a> | <a href="#">返回旧版</a></li>
+						<li class="main_a2">Copyright © 1999-2019, ctrip.com. All rights reserved.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
