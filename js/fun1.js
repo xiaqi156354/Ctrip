@@ -68,22 +68,17 @@ $(function(){
 		total();
      })
       
-        //登录使用ajax跳转
-           $("form").submit(function(){
-           		var names=$("#names").val();
-           		var pass=$("#pass").val();
-           		$.ajax({
-           			type:"post",
-           			url:"ccc.html",
-           			async:true,
-           			dataType:"json",
-           			data: {"names":names,"pass":pass},
-           			success:function(){
-           				
-           			}
-           		});
-           })
-      
+        //登录使用ajax跳转方法一;
+	$(".registerform:eq(0)").Validform({
+		ajaxPost:true,
+		callback:function(data){
+			if(data.status=="y"){
+				setTimeout(function(){
+					$.Hidemsg(); //公用方法关闭信息提示框;显示方法是$.Showmsg("message goes here.");
+				},2000);
+			}
+		}
+	});
 })
 	//注册点击下一步事件
 	function chen(){

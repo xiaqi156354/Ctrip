@@ -67,9 +67,9 @@ a {
 	color: #dddddd;
 }
 .snav_top24 {
-	width: 25px;
+	width: 12px;
 	height: 36px;
-	padding-left: 15px;
+	padding: 0 15px;
 }
 .snav_top25 {
 	width: 32px;
@@ -90,7 +90,16 @@ a {
 	display: none;
 	border: 1px solid #dddddd;
 }
-
+/*.shou {
+	width: 25px;
+	height: 36px;
+	padding-left: 15px;
+	background-color: #ffffff;
+	position: relative;
+	z-index: 2;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+}*/
 .snav_top31 {
 	width: 140px;
 	height: 135px;
@@ -193,8 +202,8 @@ a {
 	padding: 0 11px;
 }
 .snav_bottoma1_yes {
-	background: #0a56bb;
 	padding: 0 11px;
+	background: #0a56bb;
 }
 .snav_bottoma1:hover {
 	background: #0a56bb;
@@ -475,11 +484,12 @@ a {
 }
 .xnav_topft1 {
 	margin-bottom: 10px;
-	
 }
+
 .xnav_topft1:hover {
-	transform: scale(1.1);
+	transform: scale(0.8);
 	transition-duration: 0.8s;
+	
 }
 .xnav_topri {
 	float: left;
@@ -686,6 +696,9 @@ a {
 .xnav3_body_right {
 	float: left;
 }
+.xnav3_body_right:hover {
+	transform: translate(5px,5px);
+}
 .xnav4_left span {
 	color: #ececec;
 	margin: 0 10px;
@@ -847,6 +860,7 @@ a {
 	width: 220px;
 	height: 175px;
 }
+
 .xnav2_right_jin2 {
 	float: left;
 	width: 910px;
